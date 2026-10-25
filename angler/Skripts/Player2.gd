@@ -6,7 +6,7 @@ const ACCEL = 2.0
 
 var input: Vector2
 
-var objectives : Array =  ["grammofon", "thermomix", "waschmachine"]
+var objectives : Array =  ["grammofon", "thermomix", "grill"]
 
 func get_input():
 	input.x = Input.get_action_strength("right") - Input.get_action_strength("left")

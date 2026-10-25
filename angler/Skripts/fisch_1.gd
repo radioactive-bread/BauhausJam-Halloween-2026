@@ -27,6 +27,7 @@ func _on_area_2d_area_entered(area):
 var is_leaving: bool = false
 
 const LEAVE_TIME: float = 2.5
+const PACK_SOUND := preload("res://Sounds/Einpacken.mp3")
 
 func buy_and_leave(bag_texture: Texture2D) -> void:
 	if is_leaving:
@@ -41,6 +42,13 @@ func buy_and_leave(bag_texture: Texture2D) -> void:
 	freeze = true
 	collision_layer = 0
 	collision_mask = 0
+
+	# Einpack-Sound: läuft beim Elternknoten, damit er nicht abbricht, wenn der Fisch verschwindet
+	var sfx := AudioStreamPlayer.new()
+	sfx.stream = PACK_SOUND
+	get_parent().add_child(sfx)
+	sfx.finished.connect(sfx.queue_free)
+	sfx.play()
 
 	# Tüte unter den Fisch hängen
 	var bag := Sprite2D.new()

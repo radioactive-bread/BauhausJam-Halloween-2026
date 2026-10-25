@@ -2,6 +2,12 @@
 
 [ext_resource type="Script" uid="uid://sw23f541k5sg" path="res://Skripts/intro.gd" id="1_intro"]
 [ext_resource type="Texture2D" uid="uid://cjv1t76fvrtxx" path="res://Assets/Linkedin.png" id="2_linkedin"]
+[ext_resource type="Texture2D" uid="uid://c20ifctrsosvq" path="res://Assets/Walkman.png" id="3_8mghl"]
+[ext_resource type="Texture2D" uid="uid://cy4twqwn7itlr" path="res://Assets/Gayboy_.png" id="4_7yip7"]
+[ext_resource type="Texture2D" uid="uid://gcdi8hoke3qq" path="res://Assets/Fridge.png" id="5_bgn0k"]
+[ext_resource type="Texture2D" uid="uid://dopjmqpsf0tg2" path="res://Assets/GrammOFon.png" id="6_i0wd7"]
+[ext_resource type="Texture2D" uid="uid://d36urs3mlh45w" path="res://Assets/GrillDaFüsch.png" id="7_bgn0k"]
+[ext_resource type="Texture2D" uid="uid://dv3ldnfqi3pbe" path="res://Assets/ThermoMixTanja.png" id="8_i0wd7"]
 
 [node name="Intro" type="Control" unique_id=1454699925]
 layout_mode = 3
@@ -61,7 +67,6 @@ theme_override_font_sizes/font_size = 36
 text = "Play"
 
 [node name="LinkedInScreen" type="Control" parent="." unique_id=2111139385]
-visible = false
 anchors_preset = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -87,3 +92,33 @@ grow_vertical = 2
 texture = ExtResource("2_linkedin")
 expand_mode = 1
 stretch_mode = 5
+
+[node name="Walkman" type="Sprite2D" parent="LinkedInScreen" unique_id=1006503505]
+position = Vector2(154, 468)
+scale = Vector2(0.2775, 0.2775)
+texture = ExtResource("3_8mghl")
+
+[node name="Gayboy" type="Sprite2D" parent="LinkedInScreen" unique_id=39314801]
+position = Vector2(287.00003, 474.99997)
+scale = Vector2(0.24562493, 0.22626035)
+texture = ExtResource("4_7yip7")
+
+[node name="Fridge" type="Sprite2D" parent="LinkedInScreen" unique_id=697353765]
+position = Vector2(428.00003, 479)
+scale = Vector2(0.24562493, 0.22626035)
+texture = ExtResource("5_bgn0k")
+
+[node name="Grammofon" type="Sprite2D" parent="LinkedInScreen" unique_id=1514665377]
+position = Vector2(712.5625, 479.36047)
+scale = Vector2(0.23281252, 0.21445805)
+texture = ExtResource("6_i0wd7")
+
+[node name="Grill" type="Sprite2D" parent="LinkedInScreen" unique_id=252803107]
+position = Vector2(849, 474.00003)
+scale = Vector2(0.23281252, 0.21445805)
+texture = ExtResource("7_bgn0k")
+
+[node name="Grill2" type="Sprite2D" parent="LinkedInScreen" unique_id=2013299378]
+position = Vector2(985, 462.00003)
+scale = Vector2(0.31695327, 0.28326195)
+texture = ExtResource("8_i0wd7")

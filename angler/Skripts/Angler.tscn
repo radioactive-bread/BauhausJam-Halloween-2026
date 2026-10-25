@@ -55,6 +55,8 @@
 [ext_resource type="Texture2D" uid="uid://cyfsbu1vkqphj" path="res://Assets/PCOld.png" id="34_k117l"]
 [ext_resource type="Texture2D" uid="uid://d36urs3mlh45w" path="res://Assets/GrillDaFüsch.png" id="38_el8p4"]
 [ext_resource type="Texture2D" uid="uid://c20ifctrsosvq" path="res://Assets/Walkman.png" id="40_hpo7o"]
+[ext_resource type="Texture2D" uid="uid://gcdi8hoke3qq" path="res://Assets/Fridge.png" id="51_fxf5g"]
+[ext_resource type="Texture2D" uid="uid://dv3ldnfqi3pbe" path="res://Assets/ThermoMixTanja.png" id="53_vb3i5"]
 [ext_resource type="AudioStream" uid="uid://b1flgt5kmrkvk" path="res://Sounds/MainSoundtrack3.mp3" id="56_w7jox"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_uxd67"]
@@ -194,7 +196,7 @@ animations = [{
 radius = 9.649109
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ywu3n"]
-size = Vector2(708.7524, 573.1153)
+size = Vector2(628.26825, 967.35986)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3wnc0"]
 radius = 71.81647
@@ -363,7 +365,6 @@ offset_bottom = 43.165527
 color = Color(0.011764706, 0.011764706, 0.011764706, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik3" unique_id=956876175 groups=["1Technik"]]
-visible = false
 position = Vector2(-12.549484, -298.29813)
 scale = Vector2(60.35291, 58.25415)
 shape = SubResource("CircleShape2D_cwmc3")
@@ -396,7 +397,6 @@ color = Color(0.011764706, 0.011764706, 0.011764706, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik4" unique_id=2065373437 groups=["1Technik"]]
-visible = false
 position = Vector2(-12.549484, -298.29813)
 scale = Vector2(60.35291, 58.25415)
 shape = SubResource("CircleShape2D_cwmc3")
@@ -412,8 +412,23 @@ scale = Vector2(2.4908094, 2.4908094)
 texture = ExtResource("22_xwicp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Grammofon" unique_id=984712491 groups=["1Technik"]]
-position = Vector2(738.33887, 531.87164)
-scale = Vector2(0.9999998, 0.99999976)
+position = Vector2(729.9724, 455.89)
+scale = Vector2(0.99999976, 0.9999997)
+shape = SubResource("RectangleShape2D_ywu3n")
+
+[node name="Fridge" type="Area2D" parent="Technik" unique_id=589043315 groups=["Player1Objective"]]
+position = Vector2(2089, 593)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("11_3wnc0")
+
+[node name="Fridge" type="Sprite2D" parent="Technik/Fridge" unique_id=2110533821 groups=["2Technik"]]
+position = Vector2(694.7733, 277.25223)
+scale = Vector2(2.4908094, 3.004389)
+texture = ExtResource("51_fxf5g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Fridge" unique_id=1722912553 groups=["1Technik"]]
+position = Vector2(714.93896, 331.71606)
+scale = Vector2(0.9999994, 0.99999917)
 shape = SubResource("RectangleShape2D_ywu3n")
 
 [node name="Grill" type="Area2D" parent="Technik" unique_id=910181181 groups=["Player2Objective"]]
@@ -429,6 +444,21 @@ texture = ExtResource("38_el8p4")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Grill" unique_id=1203998650 groups=["1Technik"]]
 position = Vector2(798.9958, 379.90796)
 scale = Vector2(0.99999976, 0.9999997)
+shape = SubResource("RectangleShape2D_ywu3n")
+
+[node name="Thermomix" type="Area2D" parent="Technik" unique_id=1244949100 groups=["Player2Objective"]]
+position = Vector2(3531, 58)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("11_3wnc0")
+
+[node name="Thermomix" type="Sprite2D" parent="Technik/Thermomix" unique_id=208930944 groups=["2Technik"]]
+position = Vector2(-16.733398, -208.2456)
+scale = Vector2(2.0045104, 2.6315172)
+texture = ExtResource("53_vb3i5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Thermomix" unique_id=976486524 groups=["1Technik"]]
+position = Vector2(-1.8686523, -16.38736)
+scale = Vector2(0.99999964, 0.9999995)
 shape = SubResource("RectangleShape2D_ywu3n")
 
 [node name="Gameboy" type="Area2D" parent="Technik" unique_id=548285483 groups=["Player1Objective"]]
@@ -457,8 +487,8 @@ scale = Vector2(1.6279644, 2.0993316)
 texture = ExtResource("40_hpo7o")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Walkman" unique_id=1170976207 groups=["2Technik"]]
-position = Vector2(-12.549606, -16.884783)
-scale = Vector2(0.99999964, 0.9999995)
+position = Vector2(-10.458973, -87.238174)
+scale = Vector2(0.9999995, 0.99999934)
 shape = SubResource("RectangleShape2D_ywu3n")
 
 [node name="Fische" type="Node2D" parent="." unique_id=786287206]
@@ -481,7 +511,7 @@ scale = Vector2(0.24389635, 0.24038419)
 texture = ExtResource("24_7iea5")
 
 [node name="Fisch3" type="RigidBody2D" parent="Fische" unique_id=1104583264 groups=["Fisch"]]
-position = Vector2(2271, 445)
+position = Vector2(1870, 213)
 scale = Vector2(1, 1.059)
 can_sleep = false
 script = ExtResource("6_8172d")
@@ -620,6 +650,8 @@ autoplay = true
 [connection signal="body_entered" from="Technik/1Technik3" to="Technik/1Technik3" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/1Technik4" to="Technik/1Technik4" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Grammofon" to="Technik/Grammofon" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/Fridge" to="Technik/Fridge" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Grill" to="Technik/Grill" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/Thermomix" to="Technik/Thermomix" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Gameboy" to="Technik/Gameboy" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Walkman" to="Technik/Walkman" method="_on_body_entered"]
