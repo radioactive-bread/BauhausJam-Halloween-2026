@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://bjbgsx5mutct"]
-
-[ext_resource type="Script" uid="uid://dpn6u1hsusvq6" path="res://item_magnet.gd" id="1_l6xyn"]
-
-[node name="Item_Magnet" type="Area2D" unique_id=1440628]
-script = ExtResource("1_l6xyn")
