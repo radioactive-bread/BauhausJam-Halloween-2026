@@ -1,0 +1,268 @@
+[gd_scene format=3 uid="uid://dxspvvnsfy0by"]
+
+[ext_resource type="Script" uid="uid://cp8hejgin31nx" path="res://Skripts/angler.gd" id="1_hl3fq"]
+[ext_resource type="Script" uid="uid://c67ceu12g0jbx" path="res://Skripts/Player.gd" id="1_jfb4j"]
+[ext_resource type="Texture2D" uid="uid://da0tqxm8s5hqm" path="res://Assets/Platzhalter_0000s_0001_Player1.png" id="3_54lr8"]
+[ext_resource type="Script" uid="uid://dvyud634fnurq" path="res://Skripts/Player2.gd" id="3_as4sj"]
+[ext_resource type="Texture2D" uid="uid://bno8prsksncut" path="res://Assets/Light.jpg" id="4_ywu3n"]
+[ext_resource type="Script" uid="uid://24pwhc2m8q48" path="res://point_light_1.gd" id="5_3wnc0"]
+[ext_resource type="Script" uid="uid://dqxi7e8mpbs5f" path="res://Skripts/fisch_1.gd" id="6_8172d"]
+[ext_resource type="Texture2D" uid="uid://c1a5t0re4s2j1" path="res://Assets/Platzhalter_0000s_0000_Player2.png" id="6_qdiqn"]
+[ext_resource type="Script" uid="uid://ckoemg4t71sxm" path="res://Skripts/camera.gd" id="6_uacl2"]
+[ext_resource type="Texture2D" uid="uid://c3f21xjl23y1w" path="res://Assets/Background.png" id="9_7iea5"]
+[ext_resource type="Script" uid="uid://casrvnisphi63" path="res://Skripts/technik.gd" id="9_ptvj8"]
+[ext_resource type="Script" uid="uid://dqe4kum1bwtyx" path="res://Skripts/2_technik.gd" id="11_3wnc0"]
+[ext_resource type="Texture2D" uid="uid://c6omk0icrdnh8" path="res://Assets/TVOld.png" id="11_xwicp"]
+[ext_resource type="Texture2D" uid="uid://cbdyd8sb4rmhq" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0000_Frame-8.png" id="12_e8lou"]
+[ext_resource type="Texture2D" uid="uid://dq42m0kx77l5h" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0001_Frame-7.png" id="13_7iea5"]
+[ext_resource type="Texture2D" uid="uid://dj5ebv7m88xkc" path="res://Assets/Platzhalter_0000s_0003_Fernseher.png" id="13_hruxc"]
+[ext_resource type="Texture2D" uid="uid://ce8o146jhn488" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0002_Frame-6.png" id="14_xwicp"]
+[ext_resource type="Texture2D" uid="uid://cqgrtwifo5mnr" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0003_Frame-5.png" id="15_5fsen"]
+[ext_resource type="Texture2D" uid="uid://m0h7fim4je38" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0004_Frame-4.png" id="16_kejjy"]
+[ext_resource type="Texture2D" uid="uid://dmr5kh723uxl3" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0005_Frame-3.png" id="17_myn0w"]
+[ext_resource type="Texture2D" uid="uid://ci2567nuy8syc" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0006_Frame-2.png" id="18_c1l56"]
+[ext_resource type="Texture2D" uid="uid://bf86pc21a8too" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0007_Frame-1.png" id="19_0uyyw"]
+[ext_resource type="Texture2D" uid="uid://dopjmqpsf0tg2" path="res://Assets/GrammOFon.png" id="22_xwicp"]
+[ext_resource type="Texture2D" uid="uid://cy4twqwn7itlr" path="res://Assets/Gayboy_.png" id="23_5fsen"]
+[ext_resource type="Texture2D" uid="uid://c8rqgci8w4gr0" path="res://Assets/Füsch_normal.png" id="24_7iea5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uxd67"]
+radius = 347.76572
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cwmc3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_e8lou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7iea5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xwicp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_5fsen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_kejjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_myn0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_c1l56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_0uyyw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ywu3n"]
+size = Vector2(516.6285, 410.86407)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3wnc0"]
+radius = 71.81647
+
+[sub_resource type="SystemFont" id="SystemFont_hruxc"]
+subpixel_positioning = 0
+
+[node name="Node2D" type="Node2D" unique_id=1385338023]
+script = ExtResource("1_hl3fq")
+
+[node name="Player1" type="CharacterBody2D" parent="." unique_id=1044151104 groups=["Player"]]
+position = Vector2(-321, 560)
+script = ExtResource("1_jfb4j")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player1" unique_id=741250054]
+z_index = 1
+position = Vector2(-0.44000244, -6.0250244)
+texture = ExtResource("3_54lr8")
+
+[node name="Area2D" type="Area2D" parent="Player1" unique_id=700076567]
+position = Vector2(83.56, -5.0250244)
+gravity_space_override = 3
+gravity_point = true
+gravity = 100.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player1/Area2D" unique_id=2127913938]
+position = Vector2(-83, 6)
+shape = SubResource("CircleShape2D_uxd67")
+
+[node name="PointLight2D" type="PointLight2D" parent="Player1" unique_id=218111767]
+position = Vector2(-1, -4)
+texture = ExtResource("4_ywu3n")
+script = ExtResource("5_3wnc0")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1944297990]
+zoom = Vector2(0.445, 0.445)
+script = ExtResource("6_uacl2")
+
+[node name="Player2" type="CharacterBody2D" parent="." unique_id=1336734830 groups=["Player"]]
+position = Vector2(-84, -1)
+script = ExtResource("3_as4sj")
+
+[node name="Area2D" type="Area2D" parent="Player2" unique_id=1738069823]
+position = Vector2(84, 0)
+gravity_space_override = 3
+gravity_point = true
+gravity = 100.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player2/Area2D" unique_id=634204629]
+position = Vector2(-28, -42)
+shape = SubResource("CircleShape2D_uxd67")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player2" unique_id=67411523]
+z_index = 1
+position = Vector2(56, -44)
+texture = ExtResource("6_qdiqn")
+
+[node name="PointLight2D" type="PointLight2D" parent="Player2" unique_id=582027529]
+position = Vector2(56.940002, -43.149994)
+texture = ExtResource("4_ywu3n")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=743079668]
+
+[node name="Hintergrund" type="Sprite2D" parent="." unique_id=986958675]
+z_index = -1
+position = Vector2(1242.0001, 294)
+scale = Vector2(1.4159684, 1.2207347)
+texture = ExtResource("9_7iea5")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=660259204]
+visible = false
+color = Color(0.27022192, 0.27022192, 0.2702219, 1)
+
+[node name="Technik" type="Node2D" parent="." unique_id=561537995]
+
+[node name="1Technik" type="Area2D" parent="Technik" unique_id=328967867 groups=["1Technik"]]
+position = Vector2(448, 595.00006)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("9_ptvj8")
+
+[node name="Fernseher" type="Sprite2D" parent="Technik/1Technik" unique_id=948379995 groups=["1Technik"]]
+position = Vector2(92.030846, -168.84814)
+scale = Vector2(2.6225264, 2.6225262)
+texture = ExtResource("11_xwicp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Technik/1Technik/Fernseher" unique_id=1288681291]
+visible = false
+z_index = -1
+position = Vector2(-21.368603, 28.105492)
+scale = Vector2(0.96659863, 1.0858526)
+sprite_frames = SubResource("SpriteFrames_cwmc3")
+frame = 1
+frame_progress = 0.43541685
+
+[node name="1Technik2" type="Area2D" parent="Technik" unique_id=1926199764 groups=["1Technik"]]
+position = Vector2(-960.9999, -518)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("9_ptvj8")
+
+[node name="Fernseher" type="Sprite2D" parent="Technik/1Technik2" unique_id=1499001426 groups=["1Technik"]]
+position = Vector2(15.543373, -15.477791)
+scale = Vector2(2.8737583, 2.8737583)
+texture = ExtResource("13_hruxc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik2" unique_id=531689017 groups=["1Technik"]]
+position = Vector2(-1.9633789, -24.457275)
+scale = Vector2(0.9999999, 0.9999998)
+shape = SubResource("RectangleShape2D_ywu3n")
+
+[node name="Grammofon" type="Area2D" parent="Technik" unique_id=1366736191 groups=["Player2Objective"]]
+position = Vector2(1017, 462)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("11_3wnc0")
+
+[node name="Grammofon" type="Sprite2D" parent="Technik/Grammofon" unique_id=103153417 groups=["2Technik"]]
+position = Vector2(127.94037, -45.026154)
+scale = Vector2(2.4908094, 2.4908094)
+texture = ExtResource("22_xwicp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Grammofon" unique_id=984712491 groups=["1Technik"]]
+position = Vector2(175.69542, 90.052345)
+scale = Vector2(0.9999999, 0.9999998)
+shape = SubResource("RectangleShape2D_ywu3n")
+
+[node name="Gameboy" type="Area2D" parent="Technik" unique_id=548285483 groups=["Player1Objective"]]
+position = Vector2(851.0001, -343.99997)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("11_3wnc0")
+
+[node name="Gameboy" type="Sprite2D" parent="Technik/Gameboy" unique_id=2006352571 groups=["2Technik"]]
+position = Vector2(-19.52298, -45.87329)
+scale = Vector2(1.6279644, 1.6279645)
+texture = ExtResource("23_5fsen")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Gameboy" unique_id=883170912 groups=["2Technik"]]
+position = Vector2(-4.881378, 10.409668)
+scale = Vector2(0.9999998, 0.99999976)
+shape = SubResource("RectangleShape2D_ywu3n")
+
+[node name="Label" type="Label" parent="." unique_id=857476717]
+unique_name_in_owner = true
+offset_left = -1247.0
+offset_top = -684.0
+offset_right = -1064.0
+offset_bottom = -650.0
+theme_override_font_sizes/font_size = 24
+text = "Player1 Score: 0"
+
+[node name="Fische" type="Node2D" parent="." unique_id=786287206]
+
+[node name="Fisch1" type="RigidBody2D" parent="Fische" unique_id=1646778171 groups=["Fisch"]]
+position = Vector2(-941, 104)
+scale = Vector2(1, 1.059)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch1" unique_id=891155083 groups=["Fisch"]]
+position = Vector2(-1.0236816, 3.7771683)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch1" unique_id=1057071065 groups=["Fisch"]]
+z_index = 2
+position = Vector2(4.656967, -1.2147369)
+scale = Vector2(0.24389635, 0.24038419)
+texture = ExtResource("24_7iea5")
+
+[node name="Fisch2" type="RigidBody2D" parent="Fische" unique_id=428114546 groups=["Fisch"]]
+position = Vector2(-544, 29)
+scale = Vector2(1, 1.1214811)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch2" unique_id=1732894200 groups=["Fisch"]]
+position = Vector2(2, 1.7833481)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch2" unique_id=1726925022 groups=["Fisch"]]
+z_index = 2
+position = Vector2(-1.9999695, 0.8916702)
+scale = Vector2(0.23055297, 0.22723296)
+texture = ExtResource("24_7iea5")
+
+[node name="Label2" type="Label" parent="." unique_id=1138087986]
+unique_name_in_owner = true
+offset_left = -1005.0
+offset_top = -683.0
+offset_right = -822.0
+offset_bottom = -649.0
+theme_override_fonts/font = SubResource("SystemFont_hruxc")
+theme_override_font_sizes/font_size = 24
+text = "Player2 Score: 0"
+
+[connection signal="body_entered" from="Technik/1Technik" to="Technik/1Technik" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/1Technik2" to="Technik/1Technik2" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/Grammofon" to="Technik/Grammofon" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/Gameboy" to="Technik/Gameboy" method="_on_body_entered"]
