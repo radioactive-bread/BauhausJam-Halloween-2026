@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b1ucveo8oehpb"]
 
 [ext_resource type="Script" uid="uid://sw23f541k5sg" path="res://Skripts/intro.gd" id="1_intro"]
+[ext_resource type="Texture2D" uid="uid://c20gnagxqlwfr" path="res://Assets/title.png" id="2_i0wd7"]
 [ext_resource type="Texture2D" uid="uid://cjv1t76fvrtxx" path="res://Assets/Linkedin.png" id="2_linkedin"]
 [ext_resource type="Texture2D" uid="uid://c20ifctrsosvq" path="res://Assets/Walkman.png" id="3_8mghl"]
 [ext_resource type="Texture2D" uid="uid://cy4twqwn7itlr" path="res://Assets/Gayboy_.png" id="4_7yip7"]
@@ -34,21 +35,10 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.1882353, 0.7647059, 0.68235296, 0.8745098)
 
-[node name="Title" type="Label" parent="StartScreen" unique_id=1901277239]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -300.0
-offset_top = 120.0
-offset_right = 300.0
-offset_bottom = 220.0
-grow_horizontal = 2
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 6
-theme_override_font_sizes/font_size = 72
-text = "ANGLER"
-horizontal_alignment = 1
+[node name="Sprite2D" type="Sprite2D" parent="StartScreen" unique_id=783129509]
+position = Vector2(582.3888, 326.37497)
+scale = Vector2(0.60769665, 0.6048611)
+texture = ExtResource("2_i0wd7")
 
 [node name="PlayButton" type="Button" parent="StartScreen" unique_id=45257864]
 layout_mode = 1
@@ -57,16 +47,17 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -120.0
-offset_top = -40.0
-offset_right = 120.0
-offset_bottom = 40.0
+offset_left = 241.0
+offset_top = 89.0
+offset_right = 481.0
+offset_bottom = 169.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 36
 text = "Play"
 
 [node name="LinkedInScreen" type="Control" parent="." unique_id=2111139385]
+visible = false
 anchors_preset = 0
 anchor_right = 1.0
 anchor_bottom = 1.0

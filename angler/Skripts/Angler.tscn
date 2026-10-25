@@ -29,32 +29,59 @@
 [ext_resource type="Texture2D" uid="uid://ci2567nuy8syc" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0006_Frame-2.png" id="18_c1l56"]
 [ext_resource type="Texture2D" uid="uid://j72gb1xbbwyc" path="res://Assets/Animations/67/67-6.png" id="18_le7n2"]
 [ext_resource type="Texture2D" uid="uid://bf86pc21a8too" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0007_Frame-1.png" id="19_0uyyw"]
+[ext_resource type="Texture2D" uid="uid://d0bvms6ycrxtb" path="res://Assets/Animations/cocomelon/cocomelon_0000_Frame-27.png" id="20_x0c8c"]
 [ext_resource type="Texture2D" uid="uid://difo1mdv27gdl" path="res://Assets/Animations/Skibidi/skibiditoilet_0006_Frame-1.png" id="20_x3ps8"]
 [ext_resource type="Texture2D" uid="uid://gf68rhum6xbt" path="res://Assets/Animations/holzrot/tung1.png" id="20_yuteq"]
+[ext_resource type="Texture2D" uid="uid://dqqgf65xl75pv" path="res://Assets/Animations/cocomelon/cocomelon_0001_Frame-26.png" id="21_1itbb"]
 [ext_resource type="Texture2D" uid="uid://54kskudki6dh" path="res://Assets/Animations/Skibidi/skibiditoilet_0005_Frame-2.png" id="21_442dw"]
 [ext_resource type="Texture2D" uid="uid://cvvv7kslsgsm2" path="res://Assets/Animations/holzrot/tung2.png" id="21_w7jox"]
 [ext_resource type="Texture2D" uid="uid://bro04g2667qh5" path="res://Assets/Animations/Skibidi/skibiditoilet_0004_Frame-3.png" id="22_8f76g"]
+[ext_resource type="Texture2D" uid="uid://dqkoc2tsf8wu7" path="res://Assets/Animations/cocomelon/cocomelon_0002_Frame-25.png" id="22_40oij"]
 [ext_resource type="Texture2D" uid="uid://7qb60qyexg2m" path="res://Assets/Animations/holzrot/tung3.png" id="22_aob70"]
 [ext_resource type="Texture2D" uid="uid://dopjmqpsf0tg2" path="res://Assets/GrammOFon.png" id="22_xwicp"]
 [ext_resource type="Texture2D" uid="uid://cy4twqwn7itlr" path="res://Assets/Gayboy_.png" id="23_5fsen"]
 [ext_resource type="Texture2D" uid="uid://b8frdj4pyjh5q" path="res://Assets/Animations/holzrot/tung4.png" id="23_fxf5g"]
 [ext_resource type="Texture2D" uid="uid://nmrgtqgqhrxc" path="res://Assets/Animations/Skibidi/skibiditoilet_0003_Frame-4.png" id="23_t4eng"]
+[ext_resource type="Texture2D" uid="uid://dg836ogotlci7" path="res://Assets/Animations/cocomelon/cocomelon_0003_Frame-24.png" id="23_xm7u1"]
 [ext_resource type="Texture2D" uid="uid://c8rqgci8w4gr0" path="res://Assets/Füsch_normal.png" id="24_7iea5"]
 [ext_resource type="Texture2D" uid="uid://dw52d6bv7885j" path="res://Assets/Animations/Skibidi/skibiditoilet_0002_Frame-5.png" id="24_dg2t7"]
 [ext_resource type="Texture2D" uid="uid://cl706p0n2jcmt" path="res://Assets/Animations/holzrot/tung5.png" id="24_vb3i5"]
+[ext_resource type="Texture2D" uid="uid://b81xkax8rcfek" path="res://Assets/Animations/cocomelon/cocomelon_0004_Frame-23.png" id="24_xbect"]
 [ext_resource type="Texture2D" uid="uid://dck146qg38aua" path="res://Assets/Animations/Skibidi/skibiditoilet_0000_Frame-7.png" id="25_nwbvn"]
 [ext_resource type="Texture2D" uid="uid://bv4h6pt2xtxru" path="res://Assets/Animations/holzrot/tung6.png" id="25_vdgd1"]
+[ext_resource type="Texture2D" uid="uid://dhpbt0ev3i403" path="res://Assets/Animations/cocomelon/cocomelon_0005_Frame-22.png" id="25_ymvy5"]
 [ext_resource type="Texture2D" uid="uid://csphdhsdixt38" path="res://Assets/Animations/Skibidi/skibiditoilet_0001_Frame-6.png" id="26_2aod0"]
 [ext_resource type="Texture2D" uid="uid://wds7v0uo8udt" path="res://Assets/Animations/holzrot/tung7.png" id="26_3d3tn"]
+[ext_resource type="Texture2D" uid="uid://b6bx1j7ltflji" path="res://Assets/Animations/cocomelon/cocomelon_0006_Frame-21.png" id="26_5lepx"]
 [ext_resource type="Texture2D" uid="uid://cekjp7g5ocp41" path="res://Assets/Animations/holzrot/tung9.png" id="27_a5dte"]
+[ext_resource type="Texture2D" uid="uid://fn5dd78eh6xj" path="res://Assets/Animations/cocomelon/cocomelon_0007_Frame-20.png" id="27_opdmu"]
+[ext_resource type="Texture2D" uid="uid://tvvofv02bqth" path="res://Assets/Animations/cocomelon/cocomelon_0008_Frame-19.png" id="28_6ssvg"]
 [ext_resource type="Texture2D" uid="uid://brv3ds8wq5cb1" path="res://Assets/Animations/holzrot/tung8.png" id="28_fohr7"]
+[ext_resource type="Texture2D" uid="uid://cfwjc27p763dh" path="res://Assets/Animations/cocomelon/cocomelon_0009_Frame-18.png" id="29_7jx0x"]
 [ext_resource type="Texture2D" uid="uid://l1fem21nhudd" path="res://Assets/Animations/holzrot/tung10.png" id="29_d0ojy"]
 [ext_resource type="Texture2D" uid="uid://cs8dl5q2max2y" path="res://Assets/Animations/holzrot/tung11.png" id="30_47sqn"]
+[ext_resource type="Texture2D" uid="uid://cyjbc1cts66at" path="res://Assets/Animations/cocomelon/cocomelon_0010_Frame-17.png" id="30_ob1qi"]
 [ext_resource type="Texture2D" uid="uid://b820okcuba0t1" path="res://Assets/Animations/holzrot/tung13.png" id="31_bp3v6"]
+[ext_resource type="Texture2D" uid="uid://df3s7a2l1t4xc" path="res://Assets/Animations/cocomelon/cocomelon_0011_Frame-16.png" id="31_odqaq"]
 [ext_resource type="Texture2D" uid="uid://lt1lvhm6as2o" path="res://Assets/Animations/holzrot/tung12.png" id="32_65h62"]
+[ext_resource type="Texture2D" uid="uid://c5ncrivman3nc" path="res://Assets/Animations/cocomelon/cocomelon_0012_Frame-15.png" id="32_axg4v"]
+[ext_resource type="Texture2D" uid="uid://bc7wbp6n7orn1" path="res://Assets/Animations/cocomelon/cocomelon_0013_Frame-14.png" id="33_e5hpr"]
 [ext_resource type="Texture2D" uid="uid://cyfsbu1vkqphj" path="res://Assets/PCOld.png" id="34_k117l"]
+[ext_resource type="Texture2D" uid="uid://mlexgmlyv8te" path="res://Assets/Animations/cocomelon/cocomelon_0014_Frame-13.png" id="34_pwqvr"]
+[ext_resource type="Texture2D" uid="uid://ckdo5vqed1iul" path="res://Assets/Animations/cocomelon/cocomelon_0015_Frame-12.png" id="35_i3eae"]
+[ext_resource type="Texture2D" uid="uid://kwr88rs33tns" path="res://Assets/Animations/cocomelon/cocomelon_0016_Frame-11.png" id="36_wxw1w"]
+[ext_resource type="Texture2D" uid="uid://cyowt360e0ybo" path="res://Assets/Animations/cocomelon/cocomelon_0017_Frame-10.png" id="37_077g7"]
+[ext_resource type="Texture2D" uid="uid://pgs3dtbk0p0c" path="res://Assets/Animations/cocomelon/cocomelon_0018_Frame-9.png" id="38_5i4vs"]
 [ext_resource type="Texture2D" uid="uid://d36urs3mlh45w" path="res://Assets/GrillDaFüsch.png" id="38_el8p4"]
+[ext_resource type="Texture2D" uid="uid://j24k151hpm6s" path="res://Assets/Animations/cocomelon/cocomelon_0019_Frame-8.png" id="39_j0foi"]
 [ext_resource type="Texture2D" uid="uid://c20ifctrsosvq" path="res://Assets/Walkman.png" id="40_hpo7o"]
+[ext_resource type="Texture2D" uid="uid://cenu7dq2r07ny" path="res://Assets/Animations/cocomelon/cocomelon_0020_Frame-7.png" id="40_vyepa"]
+[ext_resource type="Texture2D" uid="uid://c45bjtfg8jsvq" path="res://Assets/Animations/cocomelon/cocomelon_0021_Frame-6.png" id="41_w2lql"]
+[ext_resource type="Texture2D" uid="uid://bi5cau8v6ogy1" path="res://Assets/Animations/cocomelon/cocomelon_0022_Frame-5.png" id="42_8gnft"]
+[ext_resource type="Texture2D" uid="uid://dwunv1edrqmd8" path="res://Assets/Animations/cocomelon/cocomelon_0023_Frame-4.png" id="43_fmkw0"]
+[ext_resource type="Texture2D" uid="uid://qrijoa7ormm7" path="res://Assets/Animations/cocomelon/cocomelon_0024_Frame-3.png" id="44_h0yb0"]
+[ext_resource type="Texture2D" uid="uid://c0ss2aa6myitx" path="res://Assets/Animations/cocomelon/cocomelon_0025_Frame-2.png" id="45_8efty"]
+[ext_resource type="Texture2D" uid="uid://c0fqvtc7o075p" path="res://Assets/Animations/cocomelon/cocomelon_0026_Frame-1.png" id="46_a1mtk"]
 [ext_resource type="Texture2D" uid="uid://gcdi8hoke3qq" path="res://Assets/Fridge.png" id="51_fxf5g"]
 [ext_resource type="Texture2D" uid="uid://dv3ldnfqi3pbe" path="res://Assets/ThermoMixTanja.png" id="53_vb3i5"]
 [ext_resource type="AudioStream" uid="uid://b1flgt5kmrkvk" path="res://Sounds/MainSoundtrack3.mp3" id="56_w7jox"]
@@ -89,6 +116,92 @@ animations = [{
 "loop": 1,
 "name": &"67",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_x0c8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_1itbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_40oij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_xm7u1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_xbect")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ymvy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_5lepx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_opdmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_6ssvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_7jx0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ob1qi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_odqaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_axg4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_e5hpr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_pwqvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_i3eae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_wxw1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_077g7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_5i4vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_j0foi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_vyepa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_w2lql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_8gnft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_fmkw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_h0yb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_8efty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_a1mtk")
+}],
+"loop": 1,
+"name": &"cocomelon",
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -271,7 +384,6 @@ scale = Vector2(1.4159684, 1.2207347)
 texture = ExtResource("9_7iea5")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=660259204]
-visible = false
 color = Color(0.27022192, 0.27022192, 0.2702219, 1)
 
 [node name="Technik" type="Node2D" parent="." unique_id=561537995]
@@ -401,6 +513,41 @@ position = Vector2(-12.549484, -298.29813)
 scale = Vector2(60.35291, 58.25415)
 shape = SubResource("CircleShape2D_cwmc3")
 
+[node name="1Technik5" type="Area2D" parent="Technik" unique_id=1198954952 groups=["1Technik"]]
+position = Vector2(3007, 765)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("9_ptvj8")
+
+[node name="Fernseher" type="Sprite2D" parent="Technik/1Technik5" unique_id=128635847 groups=["1Technik"]]
+position = Vector2(-19.266045, -223.05586)
+scale = Vector2(2.4658933, 2.8245099)
+texture = ExtResource("34_k117l")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Technik/1Technik5/Fernseher" unique_id=773694181]
+visible = false
+z_index = -1
+position = Vector2(-17.633656, -48.982807)
+scale = Vector2(0.7729141, 0.9024096)
+sprite_frames = SubResource("SpriteFrames_cwmc3")
+animation = &"cocomelon"
+frame = 23
+frame_progress = 0.08634022
+
+[node name="ColorRect3" type="ColorRect" parent="Technik/1Technik5/Fernseher" unique_id=487583574]
+z_index = -2
+offset_left = -135.53552
+offset_top = -153.17255
+offset_right = 103.6615
+offset_bottom = 43.165527
+color = Color(0.011764706, 0.011764706, 0.011764706, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik5" unique_id=1003987390 groups=["1Technik"]]
+visible = false
+position = Vector2(-12.549484, -298.29813)
+scale = Vector2(60.35291, 58.25415)
+shape = SubResource("CircleShape2D_cwmc3")
+
 [node name="Grammofon" type="Area2D" parent="Technik" unique_id=1366736191 groups=["Player2Objective"]]
 position = Vector2(1017, 462)
 scale = Vector2(0.47810027, 0.35534883)
@@ -417,7 +564,7 @@ scale = Vector2(0.99999976, 0.9999997)
 shape = SubResource("RectangleShape2D_ywu3n")
 
 [node name="Fridge" type="Area2D" parent="Technik" unique_id=589043315 groups=["Player1Objective"]]
-position = Vector2(2089, 593)
+position = Vector2(1735, 1030)
 scale = Vector2(0.47810027, 0.35534883)
 script = ExtResource("11_3wnc0")
 
@@ -527,8 +674,26 @@ position = Vector2(4.656967, -1.2147369)
 scale = Vector2(0.24389635, 0.24038419)
 texture = ExtResource("24_7iea5")
 
+[node name="Fisch8" type="RigidBody2D" parent="Fische" unique_id=1063603947 groups=["Fisch"]]
+position = Vector2(2041, 206)
+scale = Vector2(1, 1.059)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch8" unique_id=1308538500 groups=["Fisch"]]
+position = Vector2(-1.0236816, 3.7771683)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch8" unique_id=1372746231 groups=["Fisch"]]
+z_index = 2
+position = Vector2(4.656967, -1.2147369)
+scale = Vector2(0.24389635, 0.24038419)
+texture = ExtResource("24_7iea5")
+flip_h = true
+
 [node name="Fisch7" type="RigidBody2D" parent="Fische" unique_id=775865257 groups=["Fisch"]]
-position = Vector2(3274, 676)
+position = Vector2(3337, 1198)
 scale = Vector2(1, 1.059)
 can_sleep = false
 script = ExtResource("6_8172d")
@@ -649,6 +814,7 @@ autoplay = true
 [connection signal="body_entered" from="Technik/1Technik2" to="Technik/1Technik2" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/1Technik3" to="Technik/1Technik3" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/1Technik4" to="Technik/1Technik4" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/1Technik5" to="Technik/1Technik5" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Grammofon" to="Technik/Grammofon" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Fridge" to="Technik/Fridge" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Grill" to="Technik/Grill" method="_on_body_entered"]
