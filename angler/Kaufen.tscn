@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://d13e0ky3avd1b"]
+
+[ext_resource type="Script" uid="uid://casrvnisphi63" path="res://Technik.gd" id="1_oomwg"]
+[ext_resource type="Texture2D" uid="uid://bg7wd72han0dv" path="res://Fernseher.png" id="2_i1ccw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cj8du"]
+size = Vector2(346, 190)
+
+[node name="Technik" type="Area2D" unique_id=1460871986]
+script = ExtResource("1_oomwg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=112116456]
+texture = ExtResource("2_i1ccw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1225391145]
+position = Vector2(-3, -25)
+shape = SubResource("RectangleShape2D_cj8du")
