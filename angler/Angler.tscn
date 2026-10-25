@@ -51,7 +51,10 @@ shape = SubResource("CircleShape2D_uxd67")
 position = Vector2(-0.56, 2.025)
 texture = ExtResource("4_ywu3n")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1944297990]
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1944297990]
+position = Vector2(-83, -1)
+scale = Vector2(0.5, 1)
+skew = -0.7330383
 zoom = Vector2(0.445, 0.445)
 
 [node name="CharacterBody2D2" type="CharacterBody2D" parent="." unique_id=1336734830]
