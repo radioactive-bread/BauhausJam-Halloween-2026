@@ -3,58 +3,99 @@ extends Area2D
 var min_wait_time: float = 2.0
 var max_wait_time: float = 10.0
 
-var tv_gravity: float = 50.0
+var tv_gravity: float = 300.0
 
-@onready var tv_node: Node2D = %Fernseher
-@onready var animated_sprite: AnimatedSprite2D = $Fernseher/AnimatedSprite2D
+# Wie lange ein Fisch im Areal sein muss, bis er sich verändert (in Sekunden)
+const HYPNO_TIME: float = 3.0
+const ROTTEN_TIME: float = 7.0
+
+var tv_is_on: bool = false
+
+# Fisch -> Zeit, die er schon im Areal ist
+var fish_timers: Dictionary = {}
+
+@onready var animated_sprite: AnimatedSprite2D = get_node_or_null("Fernseher/AnimatedSprite2D")
+
+var normal_texture = load("res://Assets/Füsch_normal.png")
+var hypno_texture = load("res://Assets/Füsch_hypno.png")
+var rotten_texture = load("res://Assets/Füsch_rotten.png")
+
 
 func _ready() -> void:
+	# body_entered ist im Editor schon verbunden. body_exited verbinden wir hier.
+	if not body_exited.is_connected(_on_body_exited):
+		body_exited.connect(_on_body_exited)
 	_timed_mode()
 
 
-func _on_area_2d_area_entered(body):
-	#Solange der Fisch in dem Areal ist
-	if body.is_in_group("Fisch"):
+func _on_body_entered(body):
+	if body.is_in_group("Fisch") and not fish_timers.has(body):
+		fish_timers[body] = 0.0
 		body.isFollowingPlayer = false
-		var rotten_texture = load("res://Assets/Füsch_hypno.png")
-		var dead_texture = load("res://Assets/Füsch_rotten.png")
-		await get_tree().create_timer(3).timeout
-		body.texture(rotten_texture)
-		await get_tree().create_timer(4).timeout
-		body.texture(dead_texture)
-		body.isCollectable = false
-		body.gravity_scale = 0.0
+
+
+func _on_body_exited(body):
+	if not fish_timers.has(body):
+		return
+	fish_timers.erase(body)
+	# Ist der Fisch noch nicht tot, wird er wieder normal
+	if is_instance_valid(body) and body.isCollectable:
+		body.Sprite.texture = normal_texture
+
+
+func _physics_process(delta: float) -> void:
+	# Nur solange der Fernseher an ist, verrottet der Fisch
+	if not tv_is_on:
+		return
+
+	for fish in fish_timers.keys():
+		if not is_instance_valid(fish):
+			fish_timers.erase(fish)
+			continue
+		if not fish.isCollectable:
+			continue # schon tot
+
+		fish_timers[fish] += delta
+		var t: float = fish_timers[fish]
+
+		if t >= ROTTEN_TIME:
+			fish.Sprite.texture = rotten_texture
+			fish.isCollectable = false
+			fish.isFollowingPlayer = false
+			fish.gravity_scale = 0.0
+		elif t >= HYPNO_TIME:
+			fish.Sprite.texture = hypno_texture
+
 
 func showBrainrot():
-	# Nutzt jetzt die sicher geladene Variable
+	tv_is_on = true
 	if animated_sprite:
 		animated_sprite.visible = true
-		animated_sprite.play() 
+		animated_sprite.play()
+	gravity_point = true
 	gravity = tv_gravity
-	
-func hideBrainrot():
+	gravity_space_override = Area2D.SPACE_OVERRIDE_REPLACE
 
+
+func hideBrainrot():
+	tv_is_on = false
 	if animated_sprite:
 		animated_sprite.visible = false
-		if animated_sprite.has_method("stop"):
-			animated_sprite.stop()
-		
-	gravity = 0 	
-		
+		animated_sprite.stop()
+	gravity_space_override = Area2D.SPACE_OVERRIDE_DISABLED
+
+
 func _timed_mode():
 	while true:
-		# Hier nach einer Random Zeit Animation einblenden und nach 5s wieder ausblenden
-		# 1. Generiere eine zufällige Wartezeit
+		# Zufällige Wartezeit
 		var random_delay = randf_range(min_wait_time, max_wait_time)
-			
-		# 2. Warte zufällige Zeit ab
 		await get_tree().create_timer(random_delay).timeout
-			
-		# 3. Brainrot einschalten
+
+		# Brainrot einschalten
 		showBrainrot()
-			
-		# 4. Exakt 5 Sekunden warten
+
+		# 8 Sekunden warten
 		await get_tree().create_timer(8.0).timeout
-			
-		# 5. Brainrot wieder ausschalten
+
+		# Brainrot wieder ausschalten
 		hideBrainrot()

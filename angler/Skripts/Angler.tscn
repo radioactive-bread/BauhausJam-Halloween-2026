@@ -10,27 +10,128 @@
 [ext_resource type="Texture2D" uid="uid://c1a5t0re4s2j1" path="res://Assets/Platzhalter_0000s_0000_Player2.png" id="6_qdiqn"]
 [ext_resource type="Script" uid="uid://ckoemg4t71sxm" path="res://Skripts/camera.gd" id="6_uacl2"]
 [ext_resource type="Texture2D" uid="uid://c3f21xjl23y1w" path="res://Assets/Background.png" id="9_7iea5"]
+[ext_resource type="Texture2D" uid="uid://b7b6hbtvg0b70" path="res://Assets/Frame.png" id="9_av8t5"]
 [ext_resource type="Script" uid="uid://casrvnisphi63" path="res://Skripts/technik.gd" id="9_ptvj8"]
 [ext_resource type="Script" uid="uid://dqe4kum1bwtyx" path="res://Skripts/2_technik.gd" id="11_3wnc0"]
 [ext_resource type="Texture2D" uid="uid://c6omk0icrdnh8" path="res://Assets/TVOld.png" id="11_xwicp"]
 [ext_resource type="Texture2D" uid="uid://cbdyd8sb4rmhq" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0000_Frame-8.png" id="12_e8lou"]
+[ext_resource type="Texture2D" uid="uid://drgv57wkhibfs" path="res://Assets/Animations/67/67-1.png" id="12_r71u8"]
 [ext_resource type="Texture2D" uid="uid://dq42m0kx77l5h" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0001_Frame-7.png" id="13_7iea5"]
-[ext_resource type="Texture2D" uid="uid://dj5ebv7m88xkc" path="res://Assets/Platzhalter_0000s_0003_Fernseher.png" id="13_hruxc"]
+[ext_resource type="Texture2D" uid="uid://buequh2n84cig" path="res://Assets/Animations/67/67-2.png" id="13_av8t5"]
+[ext_resource type="Texture2D" uid="uid://cnhqd7jlhrsof" path="res://Assets/Animations/67/67-3.png" id="14_kcxsm"]
 [ext_resource type="Texture2D" uid="uid://ce8o146jhn488" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0002_Frame-6.png" id="14_xwicp"]
 [ext_resource type="Texture2D" uid="uid://cqgrtwifo5mnr" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0003_Frame-5.png" id="15_5fsen"]
+[ext_resource type="Texture2D" uid="uid://c5xsivmldypjy" path="res://Assets/Animations/67/67-4.png" id="15_el8p4"]
+[ext_resource type="Texture2D" uid="uid://srw3m6g6vnry" path="res://Assets/Animations/67/67-5.png" id="16_hpo7o"]
 [ext_resource type="Texture2D" uid="uid://m0h7fim4je38" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0004_Frame-4.png" id="16_kejjy"]
+[ext_resource type="Texture2D" uid="uid://cgtudrygoeu16" path="res://Assets/Animations/67/67-7.png" id="17_ldagg"]
 [ext_resource type="Texture2D" uid="uid://dmr5kh723uxl3" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0005_Frame-3.png" id="17_myn0w"]
 [ext_resource type="Texture2D" uid="uid://ci2567nuy8syc" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0006_Frame-2.png" id="18_c1l56"]
+[ext_resource type="Texture2D" uid="uid://j72gb1xbbwyc" path="res://Assets/Animations/67/67-6.png" id="18_le7n2"]
 [ext_resource type="Texture2D" uid="uid://bf86pc21a8too" path="res://Assets/Animations/VertikalRotierenderFisch/HorizontalRotierenderFisch_0007_Frame-1.png" id="19_0uyyw"]
+[ext_resource type="Texture2D" uid="uid://difo1mdv27gdl" path="res://Assets/Animations/Skibidi/skibiditoilet_0006_Frame-1.png" id="20_x3ps8"]
+[ext_resource type="Texture2D" uid="uid://gf68rhum6xbt" path="res://Assets/Animations/holzrot/tung1.png" id="20_yuteq"]
+[ext_resource type="Texture2D" uid="uid://54kskudki6dh" path="res://Assets/Animations/Skibidi/skibiditoilet_0005_Frame-2.png" id="21_442dw"]
+[ext_resource type="Texture2D" uid="uid://cvvv7kslsgsm2" path="res://Assets/Animations/holzrot/tung2.png" id="21_w7jox"]
+[ext_resource type="Texture2D" uid="uid://bro04g2667qh5" path="res://Assets/Animations/Skibidi/skibiditoilet_0004_Frame-3.png" id="22_8f76g"]
+[ext_resource type="Texture2D" uid="uid://7qb60qyexg2m" path="res://Assets/Animations/holzrot/tung3.png" id="22_aob70"]
 [ext_resource type="Texture2D" uid="uid://dopjmqpsf0tg2" path="res://Assets/GrammOFon.png" id="22_xwicp"]
 [ext_resource type="Texture2D" uid="uid://cy4twqwn7itlr" path="res://Assets/Gayboy_.png" id="23_5fsen"]
+[ext_resource type="Texture2D" uid="uid://b8frdj4pyjh5q" path="res://Assets/Animations/holzrot/tung4.png" id="23_fxf5g"]
+[ext_resource type="Texture2D" uid="uid://nmrgtqgqhrxc" path="res://Assets/Animations/Skibidi/skibiditoilet_0003_Frame-4.png" id="23_t4eng"]
 [ext_resource type="Texture2D" uid="uid://c8rqgci8w4gr0" path="res://Assets/Füsch_normal.png" id="24_7iea5"]
+[ext_resource type="Texture2D" uid="uid://dw52d6bv7885j" path="res://Assets/Animations/Skibidi/skibiditoilet_0002_Frame-5.png" id="24_dg2t7"]
+[ext_resource type="Texture2D" uid="uid://cl706p0n2jcmt" path="res://Assets/Animations/holzrot/tung5.png" id="24_vb3i5"]
+[ext_resource type="Texture2D" uid="uid://dck146qg38aua" path="res://Assets/Animations/Skibidi/skibiditoilet_0000_Frame-7.png" id="25_nwbvn"]
+[ext_resource type="Texture2D" uid="uid://bv4h6pt2xtxru" path="res://Assets/Animations/holzrot/tung6.png" id="25_vdgd1"]
+[ext_resource type="Texture2D" uid="uid://csphdhsdixt38" path="res://Assets/Animations/Skibidi/skibiditoilet_0001_Frame-6.png" id="26_2aod0"]
+[ext_resource type="Texture2D" uid="uid://wds7v0uo8udt" path="res://Assets/Animations/holzrot/tung7.png" id="26_3d3tn"]
+[ext_resource type="Texture2D" uid="uid://cekjp7g5ocp41" path="res://Assets/Animations/holzrot/tung9.png" id="27_a5dte"]
+[ext_resource type="Texture2D" uid="uid://brv3ds8wq5cb1" path="res://Assets/Animations/holzrot/tung8.png" id="28_fohr7"]
+[ext_resource type="Texture2D" uid="uid://l1fem21nhudd" path="res://Assets/Animations/holzrot/tung10.png" id="29_d0ojy"]
+[ext_resource type="Texture2D" uid="uid://cs8dl5q2max2y" path="res://Assets/Animations/holzrot/tung11.png" id="30_47sqn"]
+[ext_resource type="Texture2D" uid="uid://b820okcuba0t1" path="res://Assets/Animations/holzrot/tung13.png" id="31_bp3v6"]
+[ext_resource type="Texture2D" uid="uid://lt1lvhm6as2o" path="res://Assets/Animations/holzrot/tung12.png" id="32_65h62"]
+[ext_resource type="Texture2D" uid="uid://cyfsbu1vkqphj" path="res://Assets/PCOld.png" id="34_k117l"]
+[ext_resource type="Texture2D" uid="uid://d36urs3mlh45w" path="res://Assets/GrillDaFüsch.png" id="38_el8p4"]
+[ext_resource type="Texture2D" uid="uid://c20ifctrsosvq" path="res://Assets/Walkman.png" id="40_hpo7o"]
+[ext_resource type="AudioStream" uid="uid://tgwbd1qi05gm" path="res://Sounds/MainSoundtrack2.wav" id="56_w7jox"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_uxd67"]
 radius = 347.76572
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cwmc3"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_r71u8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_av8t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_kcxsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_el8p4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_hpo7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ldagg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_le7n2")
+}],
+"loop": 1,
+"name": &"67",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_yuteq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_w7jox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_aob70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_fxf5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_vb3i5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_vdgd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_3d3tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_a5dte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_fohr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_d0ojy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_47sqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_bp3v6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_65h62")
+}],
+"loop": 1,
+"name": &"holzrot",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("12_e8lou")
@@ -57,17 +158,43 @@ animations = [{
 "texture": ExtResource("19_0uyyw")
 }],
 "loop": 1,
-"name": &"default",
+"name": &"rotierenderFisch",
 "speed": 5.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_x3ps8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_442dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_8f76g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_t4eng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_dg2t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_nwbvn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2aod0")
+}],
 "loop": 1,
-"name": &"new_animation",
+"name": &"skibidi",
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_xr45f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cwmc3"]
+radius = 9.649109
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ywu3n"]
-size = Vector2(516.6285, 410.86407)
+size = Vector2(708.7524, 573.1153)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3wnc0"]
 radius = 71.81647
@@ -129,10 +256,14 @@ texture = ExtResource("6_qdiqn")
 position = Vector2(56.940002, -43.149994)
 texture = ExtResource("4_ywu3n")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=743079668]
+[node name="Frame" type="Sprite2D" parent="." unique_id=743079668]
+z_index = 2
+position = Vector2(1449.5625, 314.00003)
+scale = Vector2(1.3878126, 1.233625)
+texture = ExtResource("9_av8t5")
 
 [node name="Hintergrund" type="Sprite2D" parent="." unique_id=986958675]
-z_index = -1
+z_index = -2
 position = Vector2(1242.0001, 294)
 scale = Vector2(1.4159684, 1.2207347)
 texture = ExtResource("9_7iea5")
@@ -144,12 +275,12 @@ color = Color(0.27022192, 0.27022192, 0.2702219, 1)
 [node name="Technik" type="Node2D" parent="." unique_id=561537995]
 
 [node name="1Technik" type="Area2D" parent="Technik" unique_id=328967867 groups=["1Technik"]]
-position = Vector2(448, 595.00006)
+position = Vector2(437, 615)
 scale = Vector2(0.47810027, 0.35534883)
 script = ExtResource("9_ptvj8")
 
 [node name="Fernseher" type="Sprite2D" parent="Technik/1Technik" unique_id=948379995 groups=["1Technik"]]
-position = Vector2(92.030846, -168.84814)
+position = Vector2(0, 4.5776367e-05)
 scale = Vector2(2.6225264, 2.6225262)
 texture = ExtResource("11_xwicp")
 
@@ -159,23 +290,116 @@ z_index = -1
 position = Vector2(-21.368603, 28.105492)
 scale = Vector2(0.96659863, 1.0858526)
 sprite_frames = SubResource("SpriteFrames_cwmc3")
-frame = 1
-frame_progress = 0.43541685
+animation = &"rotierenderFisch"
+
+[node name="ColorRect" type="ColorRect" parent="Technik/1Technik/Fernseher" unique_id=1126761184]
+z_index = -2
+offset_left = -155.5234
+offset_top = -78.333626
+offset_right = 102.08719
+offset_bottom = 138.92725
+color = Color(0.011764706, 0.011764706, 0.011764706, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik" unique_id=210423594]
+position = Vector2(0, -2.8141403)
+scale = Vector2(53.10666, -68.77869)
+shape = SubResource("CircleShape2D_xr45f")
 
 [node name="1Technik2" type="Area2D" parent="Technik" unique_id=1926199764 groups=["1Technik"]]
-position = Vector2(-960.9999, -518)
+position = Vector2(-867.00006, -510)
 scale = Vector2(0.47810027, 0.35534883)
 script = ExtResource("9_ptvj8")
 
 [node name="Fernseher" type="Sprite2D" parent="Technik/1Technik2" unique_id=1499001426 groups=["1Technik"]]
-position = Vector2(15.543373, -15.477791)
+position = Vector2(-100.83902, -232.90555)
 scale = Vector2(2.8737583, 2.8737583)
-texture = ExtResource("13_hruxc")
+texture = ExtResource("11_xwicp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Technik/1Technik2/Fernseher" unique_id=551632474]
+visible = false
+z_index = -1
+position = Vector2(-27.971567, 23.99169)
+scale = Vector2(1.0311105, 1.1583236)
+sprite_frames = SubResource("SpriteFrames_cwmc3")
+animation = &"skibidi"
+
+[node name="ColorRect2" type="ColorRect" parent="Technik/1Technik2/Fernseher" unique_id=1728217468]
+z_index = -2
+offset_left = -156.32999
+offset_top = -78.572624
+offset_right = 101.28061
+offset_bottom = 138.68823
+color = Color(0.011764706, 0.011764706, 0.011764706, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik2" unique_id=531689017 groups=["1Technik"]]
-position = Vector2(-1.9633789, -24.457275)
-scale = Vector2(0.9999999, 0.9999998)
-shape = SubResource("RectangleShape2D_ywu3n")
+position = Vector2(-116.38261, -192.10054)
+scale = Vector2(60.35291, 58.25415)
+shape = SubResource("CircleShape2D_cwmc3")
+
+[node name="1Technik3" type="Area2D" parent="Technik" unique_id=208782230 groups=["1Technik"]]
+position = Vector2(-889.00006, 1107.9999)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("9_ptvj8")
+
+[node name="Fernseher" type="Sprite2D" parent="Technik/1Technik3" unique_id=1655750711 groups=["1Technik"]]
+position = Vector2(-19.266045, -223.05586)
+scale = Vector2(2.4658933, 2.8245099)
+texture = ExtResource("34_k117l")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Technik/1Technik3/Fernseher" unique_id=1991569034]
+visible = false
+z_index = -1
+position = Vector2(-21.681213, -46.25708)
+scale = Vector2(0.8069525, 0.9065101)
+sprite_frames = SubResource("SpriteFrames_cwmc3")
+animation = &"67"
+
+[node name="ColorRect3" type="ColorRect" parent="Technik/1Technik3/Fernseher" unique_id=2000433273]
+z_index = -2
+offset_left = -135.53552
+offset_top = -153.17255
+offset_right = 103.6615
+offset_bottom = 43.165527
+color = Color(0.011764706, 0.011764706, 0.011764706, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik3" unique_id=956876175 groups=["1Technik"]]
+visible = false
+position = Vector2(-12.549484, -298.29813)
+scale = Vector2(60.35291, 58.25415)
+shape = SubResource("CircleShape2D_cwmc3")
+
+[node name="1Technik4" type="Area2D" parent="Technik" unique_id=1447217288 groups=["1Technik"]]
+position = Vector2(3051, -614.9998)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("9_ptvj8")
+
+[node name="Fernseher" type="Sprite2D" parent="Technik/1Technik4" unique_id=2023791145 groups=["1Technik"]]
+position = Vector2(-19.266045, -223.05586)
+scale = Vector2(2.4658933, 2.8245099)
+texture = ExtResource("34_k117l")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Technik/1Technik4/Fernseher" unique_id=1724747654]
+visible = false
+z_index = -1
+position = Vector2(-21.681213, -46.25708)
+scale = Vector2(0.8069525, 0.9065101)
+sprite_frames = SubResource("SpriteFrames_cwmc3")
+animation = &"holzrot"
+
+[node name="ColorRect3" type="ColorRect" parent="Technik/1Technik4/Fernseher" unique_id=314396537]
+z_index = -2
+offset_left = -135.53552
+offset_top = -153.17255
+offset_right = 103.6615
+offset_bottom = 43.165527
+color = Color(0.011764706, 0.011764706, 0.011764706, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/1Technik4" unique_id=2065373437 groups=["1Technik"]]
+visible = false
+position = Vector2(-12.549484, -298.29813)
+scale = Vector2(60.35291, 58.25415)
+shape = SubResource("CircleShape2D_cwmc3")
 
 [node name="Grammofon" type="Area2D" parent="Technik" unique_id=1366736191 groups=["Player2Objective"]]
 position = Vector2(1017, 462)
@@ -183,13 +407,28 @@ scale = Vector2(0.47810027, 0.35534883)
 script = ExtResource("11_3wnc0")
 
 [node name="Grammofon" type="Sprite2D" parent="Technik/Grammofon" unique_id=103153417 groups=["2Technik"]]
-position = Vector2(127.94037, -45.026154)
+position = Vector2(694.7733, 379.96817)
 scale = Vector2(2.4908094, 2.4908094)
 texture = ExtResource("22_xwicp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Grammofon" unique_id=984712491 groups=["1Technik"]]
-position = Vector2(175.69542, 90.052345)
-scale = Vector2(0.9999999, 0.9999998)
+position = Vector2(738.33887, 531.87164)
+scale = Vector2(0.9999998, 0.99999976)
+shape = SubResource("RectangleShape2D_ywu3n")
+
+[node name="Grill" type="Area2D" parent="Technik" unique_id=910181181 groups=["Player2Objective"]]
+position = Vector2(1947, -823.9999)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("11_3wnc0")
+
+[node name="Grill" type="Sprite2D" parent="Technik/Grill" unique_id=1558805793 groups=["2Technik"]]
+position = Vector2(792.03314, 351.8266)
+scale = Vector2(2.0045104, 2.6315172)
+texture = ExtResource("38_el8p4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Grill" unique_id=1203998650 groups=["1Technik"]]
+position = Vector2(798.9958, 379.90796)
+scale = Vector2(0.99999976, 0.9999997)
 shape = SubResource("RectangleShape2D_ywu3n")
 
 [node name="Gameboy" type="Area2D" parent="Technik" unique_id=548285483 groups=["Player1Objective"]]
@@ -207,19 +446,25 @@ position = Vector2(-4.881378, 10.409668)
 scale = Vector2(0.9999998, 0.99999976)
 shape = SubResource("RectangleShape2D_ywu3n")
 
-[node name="Label" type="Label" parent="." unique_id=857476717]
-unique_name_in_owner = true
-offset_left = -1247.0
-offset_top = -684.0
-offset_right = -1064.0
-offset_bottom = -650.0
-theme_override_font_sizes/font_size = 24
-text = "Player1 Score: 0"
+[node name="Walkman" type="Area2D" parent="Technik" unique_id=97460305 groups=["Player1Objective"]]
+position = Vector2(-1050.9995, -19.000015)
+scale = Vector2(0.47810027, 0.35534883)
+script = ExtResource("11_3wnc0")
+
+[node name="Walkman" type="Sprite2D" parent="Technik/Walkman" unique_id=1859504813 groups=["2Technik"]]
+position = Vector2(-19.52298, -140.14673)
+scale = Vector2(1.6279644, 2.0993316)
+texture = ExtResource("40_hpo7o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Technik/Walkman" unique_id=1170976207 groups=["2Technik"]]
+position = Vector2(-12.549606, -16.884783)
+scale = Vector2(0.99999964, 0.9999995)
+shape = SubResource("RectangleShape2D_ywu3n")
 
 [node name="Fische" type="Node2D" parent="." unique_id=786287206]
 
 [node name="Fisch1" type="RigidBody2D" parent="Fische" unique_id=1646778171 groups=["Fisch"]]
-position = Vector2(-941, 104)
+position = Vector2(195, -507)
 scale = Vector2(1, 1.059)
 can_sleep = false
 script = ExtResource("6_8172d")
@@ -234,6 +479,94 @@ z_index = 2
 position = Vector2(4.656967, -1.2147369)
 scale = Vector2(0.24389635, 0.24038419)
 texture = ExtResource("24_7iea5")
+
+[node name="Fisch3" type="RigidBody2D" parent="Fische" unique_id=1104583264 groups=["Fisch"]]
+position = Vector2(2271, 445)
+scale = Vector2(1, 1.059)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch3" unique_id=1240074536 groups=["Fisch"]]
+position = Vector2(-1.0236816, 3.7771683)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch3" unique_id=1262197931 groups=["Fisch"]]
+z_index = 2
+position = Vector2(4.656967, -1.2147369)
+scale = Vector2(0.24389635, 0.24038419)
+texture = ExtResource("24_7iea5")
+
+[node name="Fisch7" type="RigidBody2D" parent="Fische" unique_id=775865257 groups=["Fisch"]]
+position = Vector2(3274, 676)
+scale = Vector2(1, 1.059)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch7" unique_id=22037495 groups=["Fisch"]]
+position = Vector2(-1.0236816, 3.7771683)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch7" unique_id=1570542571 groups=["Fisch"]]
+z_index = 2
+position = Vector2(4.656967, -1.2147369)
+scale = Vector2(0.24389635, 0.24038419)
+texture = ExtResource("24_7iea5")
+flip_h = true
+
+[node name="Fisch5" type="RigidBody2D" parent="Fische" unique_id=97915579 groups=["Fisch"]]
+position = Vector2(2301, -193)
+scale = Vector2(1, 1.059)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch5" unique_id=1441025175 groups=["Fisch"]]
+position = Vector2(-1.0236816, 3.7771683)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch5" unique_id=2046721335 groups=["Fisch"]]
+z_index = 2
+position = Vector2(4.656967, -1.2147369)
+scale = Vector2(0.24389635, 0.24038419)
+texture = ExtResource("24_7iea5")
+
+[node name="Fisch6" type="RigidBody2D" parent="Fische" unique_id=1474859388 groups=["Fisch"]]
+position = Vector2(1816, -611)
+scale = Vector2(1, 1.059)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch6" unique_id=585093561 groups=["Fisch"]]
+position = Vector2(-1.0236816, 3.7771683)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch6" unique_id=1807489626 groups=["Fisch"]]
+z_index = 2
+position = Vector2(4.656967, -1.2147369)
+scale = Vector2(0.24389635, 0.24038419)
+texture = ExtResource("24_7iea5")
+flip_h = true
+
+[node name="Fisch4" type="RigidBody2D" parent="Fische" unique_id=1587583881 groups=["Fisch"]]
+position = Vector2(-209, 1327)
+scale = Vector2(1, 1.059)
+can_sleep = false
+script = ExtResource("6_8172d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fische/Fisch4" unique_id=1066519143 groups=["Fisch"]]
+position = Vector2(-1.0236816, 3.7771683)
+scale = Vector2(0.88, 0.83)
+shape = SubResource("CircleShape2D_3wnc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="Fische/Fisch4" unique_id=944508127 groups=["Fisch"]]
+z_index = 2
+position = Vector2(4.656967, -1.2147369)
+scale = Vector2(0.24389635, 0.24038419)
+texture = ExtResource("24_7iea5")
+flip_h = true
 
 [node name="Fisch2" type="RigidBody2D" parent="Fische" unique_id=428114546 groups=["Fisch"]]
 position = Vector2(-544, 29)
@@ -252,17 +585,41 @@ position = Vector2(-1.9999695, 0.8916702)
 scale = Vector2(0.23055297, 0.22723296)
 texture = ExtResource("24_7iea5")
 
-[node name="Label2" type="Label" parent="." unique_id=1138087986]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=77694641]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=857476717]
 unique_name_in_owner = true
-offset_left = -1005.0
-offset_top = -683.0
-offset_right = -822.0
-offset_bottom = -649.0
+offset_left = 30.0
+offset_top = 20.0
+offset_right = 213.0
+offset_bottom = 54.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 38
+text = "Player1 Score: 0"
+
+[node name="Label2" type="Label" parent="CanvasLayer" unique_id=1138087986]
+unique_name_in_owner = true
+offset_left = 30.0
+offset_top = 90.0
+offset_right = 213.0
+offset_bottom = 124.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
 theme_override_fonts/font = SubResource("SystemFont_hruxc")
-theme_override_font_sizes/font_size = 24
+theme_override_font_sizes/font_size = 38
 text = "Player2 Score: 0"
+
+[node name="MainSoundtrack2" type="AudioStreamPlayer2D" parent="." unique_id=181141558]
+position = Vector2(376, 50)
+stream = ExtResource("56_w7jox")
+autoplay = true
 
 [connection signal="body_entered" from="Technik/1Technik" to="Technik/1Technik" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/1Technik2" to="Technik/1Technik2" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/1Technik3" to="Technik/1Technik3" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/1Technik4" to="Technik/1Technik4" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Grammofon" to="Technik/Grammofon" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/Grill" to="Technik/Grill" method="_on_body_entered"]
 [connection signal="body_entered" from="Technik/Gameboy" to="Technik/Gameboy" method="_on_body_entered"]
+[connection signal="body_entered" from="Technik/Walkman" to="Technik/Walkman" method="_on_body_entered"]
