@@ -55,7 +55,7 @@
 [ext_resource type="Texture2D" uid="uid://cyfsbu1vkqphj" path="res://Assets/PCOld.png" id="34_k117l"]
 [ext_resource type="Texture2D" uid="uid://d36urs3mlh45w" path="res://Assets/GrillDaFüsch.png" id="38_el8p4"]
 [ext_resource type="Texture2D" uid="uid://c20ifctrsosvq" path="res://Assets/Walkman.png" id="40_hpo7o"]
-[ext_resource type="AudioStream" uid="uid://tgwbd1qi05gm" path="res://Sounds/MainSoundtrack2.wav" id="56_w7jox"]
+[ext_resource type="AudioStream" uid="uid://b1flgt5kmrkvk" path="res://Sounds/MainSoundtrack3.mp3" id="56_w7jox"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_uxd67"]
 radius = 347.76572
