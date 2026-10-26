@@ -56,6 +56,19 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 36
 text = "Play"
 
+[node name="Label" type="Label" parent="StartScreen" unique_id=477709452]
+layout_mode = 0
+offset_left = 944.0
+offset_top = 501.0
+offset_right = 1149.0
+offset_bottom = 646.0
+theme_override_font_sizes/font_size = 24
+text = "A game by
+Anton
+Ella
+Natalie"
+horizontal_alignment = 2
+
 [node name="LinkedInScreen" type="Control" parent="." unique_id=2111139385]
 visible = false
 anchors_preset = 0
